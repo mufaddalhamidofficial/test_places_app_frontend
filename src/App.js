@@ -1,11 +1,11 @@
-import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Users from './users/pages/Users';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Users from "./users/pages/Users";
 
 const App = () => {
   return (
     <Router>
-      <Route path='/sgsits' exact>
+      <Route path="/" exact>
         <Users />
       </Route>
     </Router>
@@ -13,3 +13,4 @@ const App = () => {
 };
 
 export default App;
+//sgsits
